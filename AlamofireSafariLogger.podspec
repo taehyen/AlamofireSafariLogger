@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AlamofireSafariLogger'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A logging library under Alamofire library. Allow user to view logging information in Safari Web Inspector.'
 
 # This description is used to generate tags and improve search results.
@@ -26,20 +26,20 @@ Please reference to https://github.com/springwong/AlamofireSafariLogger
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Spring' => 'rudolphwong2002@gmail.com' }
-  s.source           = { :git => 'https://github.com/springwong/AlamofireSafariLogger.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hyuni/AlamofireSafariLogger.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   #s.ios.deployment_target = '8.0'
-  s.platforms = { :ios => "8.0" }
-  s.swift_version = "3.2"
+  s.platforms = { :ios => "9.0" }
+  s.swift_version = "4.2"
 
   s.source_files = 'AlamofireSafariLogger/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'AlamofireSafariLogger' => ['AlamofireSafariLogger/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Alamofire', '~> 4.5'
+  s.dependency 'Alamofire', '~> 4.8.0'
 end
